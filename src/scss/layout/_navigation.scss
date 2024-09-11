@@ -1,0 +1,41 @@
+.navigation {
+    padding: 0 toRem(68);
+    border-bottom: 1px solid $navigation-border-color;
+    letter-spacing: toRem(0.2);
+
+    &__items {
+        color: $primary-text-color;
+    }
+
+    &__item{
+        padding: toRem(20) toRem(12);
+        border-bottom: 2px solid $secondary-text-color;
+
+    }
+
+    &__item:hover {
+        border-bottom: 2px solid $primary-text-color;
+    }
+
+    &__item--active {
+        border-bottom: 2px solid $primary-text-color;
+    }
+
+    &__icons {
+        gap: toRem(24);
+    }
+
+    &__logo {
+        padding-right: toRem(400);
+    }
+
+}
+  
+
+.subNavigation {
+    border-bottom: 1px solid $navigation-border-color;
+    &__item {
+        padding: toRem(20) toRem(12);  
+    }
+    
+}

@@ -1,0 +1,83 @@
+/* General footer styles */
+.footer {
+    background-color: $secondary-bg-color;
+    padding: toRem(40) toRem(72) toRem(16) toRem(72);
+  }
+  
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__section {
+    flex: 1 1 20%;
+  }
+  
+  .footer__title {
+    letter-spacing: toRem(0.2);
+    font-weight: 600;
+    padding-bottom: toRem(20);
+  }
+  
+  .footer__list {
+    list-style: none;
+    color : $small-text-color;
+    letter-spacing: toRem(1.4);
+  }
+  
+  .footer__item {
+    padding-bottom: toRem(10);
+  }
+  
+  
+  .footer__item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* Newsletter Section */
+  .footer__newsletter {
+    flex: 2;
+    align-self: flex-start;
+    flex-basis: toRem(500);
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer__button {
+    padding: toRem(12) toRem(15);
+    background-color: $footer-button-color;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Bottom */
+  .footer__bottom {
+    padding-top: toRem(40);
+  }
+  
+  .footer__legal-list {
+    list-style: none;
+    color : $small-text-color;
+    letter-spacing: toRem(0.2);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer__legal-item {
+    margin: toRem(10) toRem(24);
+  }
+  
+  
+  .footer__legal-item:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__copyright {
+    color: $small-text-color;
+    text-align: center;
+    margin-top: toRem(16);
+    letter-spacing: toRem(0.2);
+  }
+  

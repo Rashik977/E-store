@@ -1,0 +1,19 @@
+.category-wrapper {
+    padding: toRem(90) toRem(42);
+}
+
+.category {
+    gap: toRem(12);
+    width: toRem(350);
+    height: toRem(400);
+}
+
+.categories{
+    gap: toRem(20);
+    padding-top: toRem(20);
+    flex-wrap: wrap;
+
+    img {
+        object-fit: cover;
+    }
+}

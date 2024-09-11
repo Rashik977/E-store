@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Maison';
+    font-style: normal;
+    font-weight: 400;
+
+    color: $primary-text-color;
+}
+
+h1 {
+font-size: toRem(46);
+line-height: toRem(55.2);
+}
+
+h2{
+font-size: toRem(40);
+line-height: toRem(48);
+}
+
+h3{
+font-size: toRem(32);
+line-height: toRem(40);
+}
+
+h4{
+font-size: toRem(24);
+line-height: toRem(33.24);
+}
+
+h5 {
+font-size: toRem(16);
+line-height: toRem(24);
+}
+
+h6{
+font-size: toRem(14);
+line-height: toRem(20);
+}
+
+p{
+font-size: toRem(12);
+line-height: toRem(16);
+}
+
+.textInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: $primary-text-color;
+  padding: toRem(18) toRem(15);
+}
+

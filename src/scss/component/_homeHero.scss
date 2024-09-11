@@ -1,0 +1,24 @@
+.homeHero{
+    width: 100%;
+    min-height: toRem(758);
+    background: url('/images/home_hero.png') no-repeat center center/cover;
+    color: $secondary-text-color;
+    padding: 0 toRem(32);
+
+    &__items{
+        gap: toRem(30);
+    }
+
+    &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: toRem(632);
+
+        &--title{
+            padding-bottom: toRem(14);
+            line-height: 55.2px;
+            letter-spacing: 0.9px;
+        }
+    }
+}
