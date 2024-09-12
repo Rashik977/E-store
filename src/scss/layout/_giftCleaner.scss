@@ -1,0 +1,31 @@
+.holiday-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: toRem(105);
+    flex-wrap: wrap;
+    border-bottom: 1px solid $primary-hr-color;
+    margin: toRem(90) toRem(42);
+  }
+  
+  .holiday-section__card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .holiday-section__image {
+    margin-bottom: 1rem;
+  }
+  
+  
+  .holiday-section__paragraph {
+    letter-spacing: toRem(1.4);
+  }
+  
+  .holiday-section__link {
+    letter-spacing: toRem(1.4);
+    margin-top: 1rem;
+  }

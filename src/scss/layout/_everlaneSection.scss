@@ -1,0 +1,71 @@
+  .everlane-section {
+    padding: toRem(90) toRem(77);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .everlane-section__header {
+    margin-bottom: 2rem;
+  }
+  
+  .everlane-section__header{
+    margin-bottom: 0.5rem;
+  }
+
+  .everlane-section__title {
+    margin-bottom: toRem(25);
+  }
+
+  .everlane-section__subtitle {
+    color: $small-text-color;
+    letter-spacing: toRem(1.4);
+  }
+
+  
+  .everlane-section__gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: toRem(90);
+  }
+  
+  .everlane-section__gallery-item {
+
+    img{
+        width: 100%;
+        height: 225px;
+    }
+  }
+  
+  
+  .everlane-section__features {
+    display: flex;
+    justify-content: center;
+    gap: toRem(120);
+    
+  }
+  
+  .everlane-section__feature {
+    text-align: center;
+    max-width: toRem(411);
+    margin: 0.5rem 0;
+
+    img {
+        width: 100%;
+        height: 78px;
+    }
+  }
+
+  .everlane-section__feature__title {
+    font-weight: 600;
+    letter-spacing: toRem(0.42);
+  }
+
+  .everlane-section__feature__subtitle {
+    color: $small-text-color;
+    letter-spacing: toRem(1.4);
+  }
+
+
+
+  
