@@ -1,0 +1,45 @@
+
+.product-flex-container {
+    padding: toRem(90) toRem(42);
+    text-align: center;
+  }
+  
+  .product-flex-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-flex-subtitle {
+    font-size: 16px;
+    color: $small-text-color;
+    margin-bottom: 20px;
+  }
+  
+  .product-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-image {
+
+    img{
+        width: 100%;
+        height: 720px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+  }
+  
+  .product-title,
+  .product-color,
+  .product-price {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  

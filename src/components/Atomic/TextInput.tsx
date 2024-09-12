@@ -1,4 +1,4 @@
-import { ITextInput } from "../Interface/ITextInput";
+import { ITextInput } from "../../Interface/ITextInput";
 
 const TextInput = (props: ITextInput) => {
   const {

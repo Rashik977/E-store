@@ -1,3 +1,4 @@
+import { ErrorBoundary } from "react-error-boundary";
 import Loading from "../components/Atomic/Loading";
 import Text from "../components/Atomic/Text";
 import Product from "../components/Molecule/Product";
@@ -15,11 +16,13 @@ const Products = (props: { category: string }) => {
     return <Loading />;
   }
   return (
-    <div className="products-wrapper flex">
-      {data?.map((product) => (
-        <Product key={product.id} {...product} />
-      ))}
-    </div>
+    <ErrorBoundary fallback={<p>Something went wrong</p>}>
+      <div className="products-wrapper flex">
+        {data?.map((product) => (
+          <Product key={product.id} {...product} />
+        ))}
+      </div>
+    </ErrorBoundary>
   );
 };
 

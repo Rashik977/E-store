@@ -1,4 +1,4 @@
-import { IImage } from "../Interface/IImage";
+import { IImage } from "../../Interface/IImage";
 
 const Image: React.FC<IImage> = (props: IImage) => {
   const { src, height = "50px", width = "50px", alt = "image" } = props;

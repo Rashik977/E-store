@@ -1,5 +1,5 @@
 import React from "react";
-import { IText } from "../Interface/IText";
+import { IText } from "../../Interface/IText";
 
 const Text = (props: IText) => {
   const { type, color = "inherit", children, style } = props;

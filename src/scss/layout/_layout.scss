@@ -1,0 +1,123 @@
+.about {
+    display: flex;
+    flex-direction: column;
+  
+    &__hero {
+      height: 100%;
+      width: 100%;
+      background: url("/images/aboutImage-1.png") no-repeat center
+        center/cover;
+      padding: toRem(136) toRem(500);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 84px;
+        letter-spacing: 0.2px;
+        text-align: center;
+      }
+  
+      &__container {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(20);
+        text-align: center;
+        width: toRem(488);
+      }
+    }
+  
+    &__description {
+      display: flex;
+      padding: toRem(90) toRem(500);
+  
+      h1 {
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 53.2px;
+        letter-spacing: 0.2px;
+        text-align: center;
+      }
+    }
+  
+    &__image {
+      width: 100%;
+      height: toRem(637);
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  
+    &__text {
+      display: flex;
+  
+      &__image {
+        width: 50%;
+        height: toRem(733);
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      &__content {
+        width: 50%;
+        padding: toRem(280) toRem(70);
+        display: flex;
+        flex-direction: column;
+        gap: toRem(10);
+        background-color: $accent-bg-color;
+        h6 {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16.8px;
+          letter-spacing: 1.3px;
+          text-align: left;
+        }
+        p {
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 16px;
+          letter-spacing: 0.2px;
+          text-align: left;
+        }
+      }
+    }
+  
+    &__explore {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: toRem(82) toRem(200);
+      gap: toRem(20);
+      &__container {
+        display: flex;
+        gap: toRem(20);
+  
+        .card {
+          display: flex;
+          flex-direction: column;
+          gap: toRem(10);
+          text-align: center;
+          img {
+            width: toRem(320);
+            height: toRem(195);
+          }
+        }
+      }
+    }
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .contain {
+    img {
+      object-fit: contain;
+    }
+  }

@@ -1,20 +1,10 @@
-import { IButton } from "../Interface/IButton";
+import { IButton } from "../../Interface/IButton";
 
 const Button = (props: IButton) => {
-  const {
-    type,
-    children,
-    paddingX = "0px",
-    paddingY = "12px",
-    onClick,
-  } = props;
+  const { type, children, onClick } = props;
 
   return (
-    <button
-      onClick={onClick}
-      className={`btn ${type}`}
-      style={{ padding: `${paddingY} ${paddingX}` }}
-    >
+    <button onClick={onClick} className={`btn ${type}`}>
       {children}
     </button>
   );

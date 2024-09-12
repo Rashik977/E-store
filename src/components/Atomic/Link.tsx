@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { ILink } from "../Interface/ILink";
+import { ILink } from "../../Interface/ILink";
 
 const Link = (props: ILink) => {
   const navigate = useNavigate();

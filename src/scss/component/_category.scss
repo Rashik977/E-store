@@ -3,15 +3,14 @@
 }
 
 .category {
-    gap: toRem(12);
-    width: toRem(350);
-    height: toRem(400);
+    height: toRem(650);
 }
 
 .categories{
-    gap: toRem(20);
     padding-top: toRem(20);
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 
     img {
         object-fit: cover;

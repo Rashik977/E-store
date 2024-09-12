@@ -5,6 +5,7 @@ import About from "./pages/About";
 import EverworldStories from "./pages/EverworldStories";
 import Products from "./pages/Products";
 import Product from "./pages/Product";
+import Stores from "./pages/Stores";
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
       {
         path: "/products/:id",
         element: <Product />,
+      },
+      {
+        path: "/store",
+        element: <Stores />,
       },
     ],
   },

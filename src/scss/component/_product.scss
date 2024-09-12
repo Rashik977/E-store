@@ -1,4 +1,4 @@
-/* General product container styling */
+
 .product {
     display: flex;
     flex-wrap: wrap;
@@ -6,63 +6,60 @@
     margin: 0 auto;
     padding: toRem(20);
     gap: toRem(40);
+
+    &__image {
+      flex: 1 1 40%;
+      max-width: toRem(400);
+      margin-right: toRem(20);
+
+      img{
+        width: 100%;
+        height: auto;
+        border-radius: toRem(8);
+      }
+    }
+
+    &__details {
+      flex: 1 1 60%;
+    }
+
+    &__title {
+      margin: toRem(10) 0;
+      font-weight: 600;
+    }
+
+    &__category {
+      color: $small-text-color;
+      margin-bottom: toRem(10);
+    }
+
+    &__price {
+      font-weight: 600;
+      margin-bottom: toRem(15);
+      color: $accent-text-color;
+    }
+
+    &__description {
+      color: $small-text-color;
+      margin-bottom: toRem(20);
+    }
+
+    &__rating {
+      display: flex;
+      align-items: center;
+    }
+
+    &__rate {
+      font-weight: bold;
+      margin-right: toRem(10);
+    }
+
+    &__count {
+      color: $small-text-color;
+    }
+
+    &__buy {
+      padding-top: toRem(20);
+    }
+
   }
-  
-  .product__image {
-    flex: 1 1 40%;
-    max-width: toRem(400);
-    margin-right: toRem(20);
-  }
-  
-  .product__image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .product__details {
-    flex: 1 1 60%;
-  }
-  
-  .product__title {
-    font-size: 28px;
-    margin: 10px 0;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .product__category {
-    font-size: 16px;
-    color: #888;
-    margin-bottom: 10px;
-  }
-  
-  .product__price {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #e63946;
-  }
-  
-  .product__description {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .product__rating {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .product__rate {
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  .product__count {
-    color: #666;
-  }
-  

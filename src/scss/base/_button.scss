@@ -1,10 +1,17 @@
 .btn {
     cursor: pointer;
     border: none;
+    padding: toRem(12) toRem(80);
+    letter-spacing: toRem(1.4);
 
 }
 
 .primary {
     background-color: $primary-button-color;
     color: $primary-text-color;
+}
+
+.secondary {
+    background-color: $secondary-button-color;
+    color: $secondary-text-color;
 }

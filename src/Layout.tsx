@@ -4,6 +4,7 @@ import Banner from "./components/Molecule/Banner";
 import Navigation from "./components/Molecule/Navigation";
 import SubNavigation from "./components/Molecule/SubNavigation";
 import Footer from "./components/Molecule/Footer";
+import Cart from "./components/Molecule/Cart";
 
 const Layout: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Layout: React.FC = () => {
       <Banner />
       <Navigation />
       <SubNavigation />
+      <Cart />
       <main>
         <Outlet />
       </main>
