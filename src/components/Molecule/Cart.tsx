@@ -62,6 +62,7 @@ const Cart = () => {
                           handleUpdateQuantity(item.id, item.quantity - 1)
                         }
                         disabled={item.quantity <= 1}
+                        id="quantity-decrease"
                       >
                         -
                       </button>
@@ -70,6 +71,7 @@ const Cart = () => {
                         onClick={() =>
                           handleUpdateQuantity(item.id, item.quantity + 1)
                         }
+                        id="quantity-increase"
                       >
                         +
                       </button>

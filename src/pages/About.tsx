@@ -47,7 +47,7 @@ const About = () => {
         </div>
 
         <div className="about__image ">
-          <Image src="public/images/aboutImage-1.png" />
+          <Image src="/images/aboutImage-1.png" />
         </div>
         <div className="about__text">
           <div className="about__text__content">
@@ -66,7 +66,7 @@ const About = () => {
         </div>
 
         <div className="about__image">
-          <Image src="public/images/aboutImage-2.png" />
+          <Image src="/images/aboutImage-2.png" />
         </div>
 
         <div className="about__text">
